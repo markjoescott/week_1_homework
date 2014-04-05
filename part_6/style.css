@@ -3,21 +3,7 @@ body {
   font-size: 16pt;
 }
 
-h1  {text-align:center; margin-top:2cm;
-}
-
-p.subtitle {text-align: center; font-style: italic;
-
-}
-
-blockquote {
-   text-align:left; font-style: italic;
-
-}
-footer {
-  text-align: right;color: blue; fo
-}
-h2 { border-top: solid; border-bottom: outset;}
+p.ex1 {margin-top:2cm;}
 
 
 /* ----------------------------------------------------------------- */

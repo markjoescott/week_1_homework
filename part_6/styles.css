@@ -1,14 +1,19 @@
 body {
   font-family: "Computer Modern Serif";
-  font-size: 16pt;
+  font-size: 12pt;
 }
 
-h1  {text-align:center; margin-top:2cm;
+h1  {text-align:center; margin-top:2cm; font-variant: small-caps;
 }
+h2 {text-transform: uppercase;}
+
+dt {text-align: left;}
+dd {text-indent: 8em; border-spacing: 10px}
 
 p.subtitle {text-align: center; font-style: italic;
 
 }
+small {font-size: 8; font-style: italic}
 
 blockquote {
    text-align:left; font-style: italic;
@@ -17,7 +22,23 @@ blockquote {
 footer {
   text-align: right;color: blue; fo
 }
-h2 { border-top: solid; border-bottom: outset;}
+h2 { border-top: solid; border-width: justify; border-bottom: outset;}
+
+table.schedule{border: outset; 
+
+}
+
+th{ background-color: black; color: white
+
+
+}
+
+td.week{-webkit-transform:rotate(-90deg)}
+
+tr.odd_week{background-color: #E6E6FA; }
+
+
+}
 
 
 /* ----------------------------------------------------------------- */

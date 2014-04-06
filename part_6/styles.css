@@ -15,10 +15,12 @@ h1  {text-align:center;
 }
 h2 {text-transform: uppercase;}
 
-dl {line-height: 1; }
-dt {text-align: left; float: left; }
-dd {text-indent: 8em; text-align: left; 
+dl {line-height: 1; 
+}
 
+
+dt {text-align: left; float: left; }
+dd {text-indent: 8em; text-align: justify;
 }
 
 p.subtitle {text-align: center; 
@@ -64,16 +66,31 @@ h2 {    border-top: solid; border-width: justify;
     font-weight: 100;
 }
 
+table {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+}
+
 table.schedule{border: outset; margin: auto;
 
 }
 
-th{ background-color: black; color: white
+th{ background-color: black; 
+    color: white;
+    
 
 
 }
+tr{
+border: outset;
 
-td.week{-webkit-transform:rotate(-90deg); text-transform: uppercase;}
+}
+
+td.week{
+  -webkit-transform:rotate(-90deg); 
+  text-transform: uppercase;
+
+}
 
 tr.odd_week{background-color: #E6E6FA; }
 

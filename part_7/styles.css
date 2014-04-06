@@ -3,3 +3,52 @@
 * {
   border: thin red solid;
 }
+
+h1 {
+
+	height: 200px;
+	background-color: #D0D0D0;
+	font-size: 34;
+}
+
+#what {
+	width: 33.33%; 
+	float: left;
+}
+
+#FAQ{
+
+	width: 33%;
+	float: left;
+}
+
+#Purchase{
+
+	width: 33%;
+	float: right;
+}
+
+#Describe{
+
+	width: 33.33%;
+	float:left;
+}
+
+#screen {
+
+
+}
+
+#testimonial1 {
+
+}
+
+#testimonial2 {
+
+
+}
+
+#testimonial3 {
+
+
+}

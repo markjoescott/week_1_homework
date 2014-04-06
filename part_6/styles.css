@@ -1,8 +1,9 @@
 body {
   font-family: "Computer Modern Serif";
-  font-size: 12pt; margin-left: 50px; margin-right: 50px;  
+  font-size: 12pt; 
+  margin-left: 50px; 
+  margin-right: 50px;  
   width: 960px;
-  font-weight: 100;
   margin-left: auto;
   margin-right: auto;
 
@@ -21,8 +22,14 @@ dl {line-height: 1;
 
 
 dt {text-align: left; 
-  float: left; }
-dd {margin-left: 10em; text-align: justify;
+  
+  float: left; 
+}
+
+dd {
+
+  margin-left: 10em; 
+  text-align: justify;
 }
 
 p.subtitle {text-align: center; 
@@ -44,16 +51,21 @@ footer {
   text-align: right; 
         color: blue; 
         font-size: 15pt;
-        
-
         text-transform: uppercase; 
         font-style: normal;
 
 }
-a:link{text-decoration: none;}
-h2 {    border-top: solid; border-width: justify; 
-        border-bottom: outset; border-color: outset; 
+a:link
+{
+  text-decoration: none;
 
+}
+
+
+h2 {    border-top: solid; 
+        border-width: justify; 
+        border-bottom: outset; 
+        border-color: outset; 
         font-size: 16pt;
         letter-spacing: 5px;
     }

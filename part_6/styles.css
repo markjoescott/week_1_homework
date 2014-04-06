@@ -1,7 +1,8 @@
 body {
   font-family: "Computer Modern Serif";
-  font-size: 12pt; margin-left: 50px; margin-right: 50px; font-weight: lighter; 
+  font-size: 12pt; margin-left: 50px; margin-right: 50px;  
   width: 960px;
+  font-weight: 100;
   margin-left: auto;
   margin-right: auto;
 
@@ -43,7 +44,7 @@ footer {
   text-align: right; 
         color: blue; 
         font-size: 15pt;
-        font-weight: lighter;
+        
 
         text-transform: uppercase; 
         font-style: normal;
@@ -68,17 +69,14 @@ h2 {    border-top: solid; border-width: justify;
     font-weight: 100;
 }
 
-p {
-
-
-}
-
 table {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-collapse: collapse;
+
 
 }
 
-table.schedule{border: outset; 
+table.schedule{ 
               margin: auto;
               width: 85%;
 
@@ -86,18 +84,22 @@ table.schedule{border: outset;
 
 th{ background-color: black; 
     color: white;
-    
-
+    font-weight: 200;
 
 }
-tr{
-border: outset;
+td{
+ border: solid;
+ border-width: thin;
+ font-weight: 300;
+
 
 }
 
 td.week{
+  border: outset;
   -webkit-transform:rotate(-90deg); 
   text-transform: uppercase;
+
 
 }
 

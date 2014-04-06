@@ -19,8 +19,9 @@ dl {line-height: 1;
 }
 
 
-dt {text-align: left; float: left; }
-dd {text-indent: 8em; text-align: justify;
+dt {text-align: left; 
+  float: left; }
+dd {margin-left: 10em; text-align: justify;
 }
 
 p.subtitle {text-align: center; 
@@ -61,17 +62,25 @@ h2 {    border-top: solid; border-width: justify;
           letter-spacing: 0px;
         }
 
+
  section {
     font-size: 14pt; 
     font-weight: 100;
 }
 
-table {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  
+p {
+
+
 }
 
-table.schedule{border: outset; margin: auto;
+table {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+table.schedule{border: outset; 
+              margin: auto;
+              width: 85%;
 
 }
 

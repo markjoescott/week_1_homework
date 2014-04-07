@@ -2,6 +2,7 @@
 
 * {
   border: thin red solid;
+  border-collapse: collapse;
 }
 
 h1 {
@@ -12,7 +13,7 @@ h1 {
 }
 
 #what {
-	width: 33.33%; 
+	width: 33%; 
 	float: left;
 }
 
@@ -25,30 +26,62 @@ h1 {
 #Purchase{
 
 	width: 33%;
-	float: right;
+	float: left;
 }
 
 #Describe{
 
-	width: 33.33%;
+	height: 85%;
+	width: 33%;
 	float:left;
 }
 
+
+#screenshot1 {
+
+	width: 66%;
+	float: left;
+}
 #screen {
 
+	width: 66%;
+	height: 85%;
+	float: left;
 
+
+}
+
+#Describe2 {
+
+	width: 33%;
+	height: 85%;
+	float:left;
 }
 
 #testimonial1 {
 
+	float: left;
+	width: 25%;
+	
 }
 
 #testimonial2 {
+
+	float: left;
+	width: 25%;
 
 
 }
 
 #testimonial3 {
 
+	float: left;
+	width: 25%;
 
+}
+
+footer {
+
+	width: 100%;
+	float:left;
 }

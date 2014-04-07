@@ -1,7 +1,10 @@
-body {
+header
+
+{
   font-family: "Computer Modern Serif";
   font-size: 12pt; 
-  margin-left: 50px; 
+ font-weight: 100;
+ margin-left: 50px; 
   margin-right: 50px;  
   width: 960px;
   margin-left: auto;
@@ -9,15 +12,38 @@ body {
 
 }
 
+
+
 h1  {text-align:center; 
   margin-top:2.6cm; 
   font-variant: normal;
   letter-spacing: 8pt;
   font-size: 32pt;
 }
-h2 {text-transform: uppercase;
+h2 {
 
-    font-weight: 100;
+        text-transform: uppercase;
+
+        border-top: solid; 
+        border-width: justify;
+
+        border-bottom: outset; 
+        font-size: 16pt;
+        letter-spacing: 5px;
+        font-weight: 700;
+
+}
+
+section
+{
+  font-family: "Computer Modern Serif";
+  font-size: 12pt;
+  margin-left: 50px; 
+  margin-right: 50px;  
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 dl {line-height: 1; 
@@ -35,20 +61,15 @@ dd {
   text-align: justify;
 }
 
-p.subtitle {text-align: center; 
+
+p.subtitle 
+{
+
+  text-align: center; 
     font-style: italic;
     font-size: 16pt;
     letter-spacing: 2.4pt;
     font-weight: 100;
-  
-
-
-
-}
-
-p.body {
-
-  font-weight: 100;
 }
 
 blockquote {
@@ -59,28 +80,32 @@ blockquote {
 
 
 }
+
+
 footer {
   text-align: right; 
-        color: blue; 
+        color: gray; 
         font-size: 15pt;
         text-transform: uppercase; 
         font-style: normal;
 
 }
+
+
+a {
+  text-align: right; 
+        color: blue; 
+        font-size: 15pt;
+        text-transform: uppercase; 
+        font-style: normal;
+        font-weight: 100;
+      }
 a:link
 {
   text-decoration: none;
 
 }
 
-
-h2 {    border-top: solid; 
-        border-width: justify; 
-        border-bottom: outset; 
-        border-color: outset; 
-        font-size: 16pt;
-        letter-spacing: 5px;
-    }
     small {font-size: 10pt; 
           font-style: italic; 
           text-transform: none;
@@ -96,6 +121,7 @@ h2 {    border-top: solid;
 table {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-collapse: collapse;
+   
 
 
 }

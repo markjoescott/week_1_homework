@@ -15,23 +15,27 @@ h1 {
 #what {
 	width: 33%; 
 	float: left;
+	font-size: 14pt;
+
 }
 
 #FAQ{
 
 	width: 33%;
 	float: left;
+	font-size: 14pt;
 }
 
 #Purchase{
 
 	width: 33%;
 	float: left;
+	font-size: 14pt;
 }
 
 #Describe{
 
-	height: 85%;
+	height: 15%;
 	width: 33%;
 	float:left;
 }
@@ -40,12 +44,13 @@ h1 {
 #screenshot1 {
 
 	width: 66%;
+	height: 60%;
 	float: left;
 }
 #screen {
 
 	width: 66%;
-	height: 85%;
+	height: 55%;
 	float: left;
 
 
@@ -54,7 +59,7 @@ h1 {
 #Describe2 {
 
 	width: 33%;
-	height: 85%;
+	height: 55%;
 	float:left;
 }
 
@@ -78,6 +83,17 @@ h1 {
 	float: left;
 	width: 25%;
 
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  height: 30px;
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 20px;
 }
 
 footer {
